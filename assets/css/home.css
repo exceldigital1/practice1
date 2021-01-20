@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+p{
+    font-size: 18px;
+}
+body{
+    width: 100%;
+    background-image: linear-gradient(grey 70%, white);
+}
+
+nav{
+    background-color: white;
+    color: grey;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+}
+nav .fa{
+    font-size: 50px;
+    margin-right: auto;
+    margin-left: 150px;
+}
+nav ul{
+    margin-right: 150px;
+    align-items: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 15px;
+    line-height: 80px;
+}
+nav ul li a{
+    font-size: 18px;
+    color: grey;
+    text-transform: capitalize;
+    transition: all .7s;
+}
+
+nav ul li a:hover{
+    font-size: 19px;
+    color: rgb(189, 184, 184);
+}
+h1{
+    margin-bottom: 30px;
+}
+
+#main{
+    margin-top: 100px;
+}
+
+#main .fa{
+    margin: 0 10px;
+}
+#main p,#main h1,#main a{
+    color: white;
+    text-align: center;
+}
+
+#main a{
+    text-decoration: none;
+    padding: 10px 30px;
+    display: block;
+    width: fit-content;
+    border-radius: 26px;
+    border: none;
+    margin: 30px auto;
+    background: rgb(107, 105, 105);
+    transition: all .7s;
+}
+#main a:hover{
+    background-color: white;
+    color: grey;
+    font-size: 17px;
+}
+
+#colors{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px 150px 100px 150px;
+}
+#colors div h4{
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+#colors div{
+    background: white;
+    color: grey;
+    margin: 20px;
+    text-align: center;
+    padding: 15px;
+}
+#colors div i{
+    font-size: 60px;
+    margin: 30px auto;
+}
+
+#colors div p{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
